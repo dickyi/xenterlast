@@ -29,6 +29,20 @@ public class Main {
         System.out.println("Tanah: " + bunga.getTanah());
         System.out.println("Hewan Penyerbuk: " + bunga.getHewan_penyerbuk());
         
+        Bunga_Bangke FR = new Bunga_Bangke();
+
+        FR.setnama_ilmiah("Plumeria rubra");
+        FR.setWarna("Merah");
+        FR.setIklim("Tropis");
+        FR.setTanah("Berdrainase baik");
+        FR.setHewan_penyerbuk("Lebah");
+
+        System.out.println("\t \t \t Bunga Kamboja");
+        System.out.println("Nama Ilmiah: " + FR.getnama_ilmiah());
+        System.out.println("Warna: " + FR.getWarna());
+        System.out.println("Iklim: " + FR.getIklim());
+        System.out.println("Tanah: " + FR.getTanah());
+        System.out.println("Hewan Penyerbuk: " + FR.getHewan_penyerbuk());
         
         
 
