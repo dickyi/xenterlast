@@ -32,7 +32,7 @@ public class Main {
         
         Bunga_Lain bn = new Bunga_Lain();
 
-        bn.setnama_ilmiah("Plumeria rubra");
+        bn.setnama_ilmiah("Plumeria rubraee");
         bn.setWarna("Merah");
         bn.setIklim("Tropis");
         bn.setTanah("Berdrainase baik");
